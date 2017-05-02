@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.deepshooter.retrofitdemo.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Get Data List"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/vT_getDataListText"
+        android:background="@color/color_one"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Get Data List Cache"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/vT_getDataListCacheText"
+        android:background="@color/color_two"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Post Data"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/vT_postDataText"
+        android:background="@color/color_one"
+        />
+
+</LinearLayout>
